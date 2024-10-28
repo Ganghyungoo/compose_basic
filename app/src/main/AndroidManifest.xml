@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,14 +15,9 @@
         android:theme="@style/Theme.ComposeBasic"
         tools:targetApi="31">
         <activity
-            android:name=".BoxActivity"
-            android:exported="false"
-            android:label="@string/title_activity_box"
-            android:theme="@style/Theme.ComposeBasic" />
-        <activity
-            android:name=".SurfaceActivity"
+            android:name=".LazyColumnActivity"
             android:exported="true"
-            android:label="@string/title_activity_surface"
+            android:label="@string/title_activity_lazy_column"
             android:theme="@style/Theme.ComposeBasic">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,10 +26,72 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ScaffoldActivity"
+            android:exported="true"
+            android:label="@string/title_activity_scaffold"
+            android:theme="@style/Theme.ComposeBasic">
+
+        </activity>
+        <activity
+            android:name=".SlotApiActivity"
+            android:exported="true"
+            android:label="@string/title_activity_slot_api"
+            android:theme="@style/Theme.ComposeBasic"></activity>
+        <activity
+            android:name=".TopAppBarActivity"
+            android:exported="true"
+            android:label="@string/title_activity_top_app_bar"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".TextFieldActivity"
+            android:exported="true"
+            android:label="@string/title_activity_text_field"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".CheckboxActivity"
+            android:exported="true"
+            android:label="@string/title_activity_checkbox"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".exercise.ProfileExActivity"
+            android:exported="true"
+            android:label="@string/title_activity_profile_ex"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".ImageActivity"
+            android:exported="true"
+            android:label="@string/title_activity_image"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".BoxWithConstraintsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_box_with_constraints"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".ColumnActivity"
+            android:exported="false"
+            android:label="@string/title_activity_column"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".RowActivity"
+            android:exported="true"
+            android:label="@string/title_activity_row"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".BoxActivity"
+            android:exported="false"
+            android:label="@string/title_activity_box"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".SurfaceActivity"
+            android:exported="true"
+            android:label="@string/title_activity_surface"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
             android:name=".ModifierActivity"
             android:exported="true"
             android:label="@string/title_activity_modifier"
-            android:theme="@style/Theme.ComposeBasic"></activity>
+            android:theme="@style/Theme.ComposeBasic" />
         <activity
             android:name=".ButtonActivity"
             android:exported="true"

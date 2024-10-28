@@ -4,4 +4,15 @@
     <string name="title_activity_modifier">ModifierActivity</string>
     <string name="title_activity_surface">SurfaceActivity</string>
     <string name="title_activity_box">BoxActivity</string>
+    <string name="title_activity_row">RowActivity</string>
+    <string name="title_activity_column">ColumnActivity</string>
+    <string name="title_activity_box_with_constraints">BoxWithConstraintsActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_profile_ex">ProfileExActivity</string>
+    <string name="title_activity_checkbox">CheckboxActivity</string>
+    <string name="title_activity_text_field">TextFieldActivity</string>
+    <string name="title_activity_top_app_bar">TopAppBarActivity</string>
+    <string name="title_activity_slot_api">SlotApiActivity</string>
+    <string name="title_activity_scaffold">ScaffoldActivity</string>
+    <string name="title_activity_lazy_column">LazyColumnActivity</string>
 </resources>
