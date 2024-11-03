@@ -15,4 +15,15 @@
     <string name="title_activity_slot_api">SlotApiActivity</string>
     <string name="title_activity_scaffold">ScaffoldActivity</string>
     <string name="title_activity_lazy_column">LazyColumnActivity</string>
+    <string name="title_activity_constraint_layout">ConstraintLayoutActivity</string>
+    <string name="title_activity_constraint_layout2">ConstraintLayoutActivity2</string>
+    <string name="title_activity_constraint_layout3">ConstraintLayoutActivity3</string>
+    <string name="title_activity_constraint_layout_ex">ConstraintLayoutExActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_custom_dialog">CustomDialogActivity</string>
+    <string name="title_activity_snack_bar">SnackBarActivity</string>
+    <string name="title_activity_animation1">AnimationActivity1</string>
+    <string name="title_activity_animation2">AnimationActivity2</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_todo">TodoActivity</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,12 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeBasic"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
-            android:name=".LazyColumnActivity"
+            android:name=".exercise.TodoActivity"
             android:exported="true"
-            android:label="@string/title_activity_lazy_column"
-            android:theme="@style/Theme.ComposeBasic">
+            android:label="@string/title_activity_todo"
+            android:theme="@style/Theme.ComposeBasic" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,17 +26,66 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".AnimationActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_animation2"
+            android:theme="@style/Theme.ComposeBasic" >
+        </activity>
+        <activity
+            android:name=".AnimationActivity1"
+            android:exported="true"
+            android:label="@string/title_activity_animation1"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".SnackBarActivity"
+            android:exported="true"
+            android:label="@string/title_activity_snack_bar"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".CustomDialogActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_dialog"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".DialogActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dialog"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".exercise.ConstraintLayoutExActivity"
+            android:exported="true"
+            android:label="@string/title_activity_constraint_layout_ex"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".ConstraintLayoutActivity3"
+            android:exported="true"
+            android:label="@string/title_activity_constraint_layout3"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".ConstraintLayoutActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_constraint_layout2"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:exported="true"
+            android:label="@string/title_activity_constraint_layout"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
+            android:name=".LazyColumnActivity"
+            android:exported="true"
+            android:label="@string/title_activity_lazy_column"
+            android:theme="@style/Theme.ComposeBasic" />
+        <activity
             android:name=".ScaffoldActivity"
             android:exported="true"
             android:label="@string/title_activity_scaffold"
-            android:theme="@style/Theme.ComposeBasic">
-
-        </activity>
+            android:theme="@style/Theme.ComposeBasic" />
         <activity
             android:name=".SlotApiActivity"
             android:exported="true"
             android:label="@string/title_activity_slot_api"
-            android:theme="@style/Theme.ComposeBasic"></activity>
+            android:theme="@style/Theme.ComposeBasic" />
         <activity
             android:name=".TopAppBarActivity"
             android:exported="true"
